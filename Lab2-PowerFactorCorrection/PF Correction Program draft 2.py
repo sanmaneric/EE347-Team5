@@ -125,5 +125,5 @@ if choice == 2:
     ax.set_title('Qc')
     ax.view_init(elev=30, azim=45)
     fig.colorbar(surf, shrink=0.3, aspect=10)
-
+    fig.savefig('All plots.png', format='png', dpi=1200)
     plt.show()
